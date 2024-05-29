@@ -1,0 +1,79 @@
+
+.heading {
+    color: rgb(255, 255, 255);
+  }
+  
+  .form-check-input{
+    margin-top: 10px;
+  }
+
+  .signupform{
+    margin-top: 100px;
+  }
+  
+  .dis{
+    color: rgb(7, 0, 100);
+    text-decoration: none;
+  }
+  form {
+    background-color: rgb(142, 101, 255);
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+    width: 500px;
+    text-align: center;
+    display: block;
+    margin: auto;
+  }
+  .regsuccess{
+    color: rgb(119, 255, 123);
+  }
+ 
+  .flex {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+  }
+  
+  .checkbox {
+    width: 15px;
+    margin-right: 10px;
+  }
+
+  .signup {
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+
+  .body {
+    line-height: 20px;
+  }
+  .form-label {
+    color: rgb(0, 0, 0);
+  }
+  .form-error {
+    color: rgb(255, 38, 38);
+  }
+  .form-submitted {
+    color: green;
+    font-weight: bold;
+  }
+  .form-control {
+    width: 350px;
+    margin-left: 70px;
+  }
+  .submit {
+    background-color: rgb(195, 195, 195);
+    border-radius: 30px;
+    width: 300px;
+    color: rgb(36, 36, 36);
+    align-items: center;
+  }
+  /* Media Query for Medium Screens (between 577px and 768px) */
+  @media (min-width: 200px) and (max-width: 1000px) {
+    .container {
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  

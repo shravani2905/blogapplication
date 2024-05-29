@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.navbar {
+  background-color:#2a2ef7;
+  position:fixed;
+  z-index: 2;
+  top:0;
+  align-items: center;
+  width: 100%;
+
+}
+.List {
+  display: flex;
+  gap: 1px;
+  margin-right: 10px;
+  list-style-type: none;
+}
+.List a {
+  text-decoration: none;
+}
+
+.navbar img {
+  border-radius: 100%;
+  margin-left: 30px;
+  margin-bottom: 5px;
+}
+.navbar button {
+  text-transform: uppercase;
+  margin-right: 10px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  border: none;
+}
+.heading {
+  font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2rem;
+  margin-left: 200px;
+  color: rgb(133, 248, 38);
+  text-shadow: 2px 2px 2px rgb(228, 38, 187);
+}
+@media screen and (max-width: 1000px) {
+  .navbar {
+    background-color: rgb(139, 139, 255);
+    position: fixed;
+    z-index: 2;
+    align-items: center;
+    width: 100%;
+    font-size: 0.8rem;
+  }
+  .search-button {
+    background-color: rgb(13, 196, 0);
+    width: 80px;
+    height: 30px;
+    border: none;
+    border: 0.5px solid black;
+    color: rgb(255, 255, 255);
+  }
+  .List {
+    display: flex;
+    gap: 0px;
+    list-style-type: none;
+  }
+  input {
+    width: 200px;
+    height: 30px;
+    border: 0.5px solid black;
+    font-size: 0.6rem;
+    margin-left: 100px;
+  }
+  .navbar img {
+    border-radius: 30px;
+    margin-left: 10px;
+  }
+  .btn {
+    text-transform: uppercase;
+    color: rgb(255, 128, 128);
+    font-weight: bold;
+    border: none;
+    font-size: 0.7rem;
+  }
+  .heading {
+    font-family: "Whisper", cursive;
+    font-size: 1.5rem;
+    color: rgb(20, 7, 160);
+    text-shadow: 2px 2px 2px white;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .btn {
+    margin-left: 30px;
+  }
+}

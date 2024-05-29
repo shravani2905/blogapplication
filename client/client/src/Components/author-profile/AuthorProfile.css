@@ -1,0 +1,14 @@
+.author-profile ul .active {
+  color: var(--light-grey) !important;
+  background-color: var(--light-dark-grey);
+  border-radius: 5px;
+  
+}
+.author-profile{
+margin-top: 100px;
+}
+.author-profile .nav-link{
+background-color: rgb(200, 200, 200);
+border-radius: 10px;
+}
+

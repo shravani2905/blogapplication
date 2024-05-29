@@ -1,0 +1,14 @@
+.articleHome{
+    text-align: center;
+}
+
+.lead-home{
+    color:rgb(255, 22, 205);
+    line-height: 40px;
+    font-weight: bold;
+    margin-top: 120px;
+    
+}
+body{
+    background-color:#d6dbff;
+}
