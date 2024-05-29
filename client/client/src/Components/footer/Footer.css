@@ -1,18 +1,18 @@
 .bg-footer {
-    background-color: #7173ff;
-    padding: 20px 0 30px;
+    background-color:#89b2b2;
+    padding: 50px 0 30px;
+    padding-left: 100px;
+    
 }
 .footer-heading {
     letter-spacing: 2px;
 }
-
 .footer-link a {
     color: #ffffff;
     line-height: 40px;
     font-size: 14px;
     transition: all 0.5s;
 }
-
 .footer-link a:hover {
     color: #ffffff;
 }

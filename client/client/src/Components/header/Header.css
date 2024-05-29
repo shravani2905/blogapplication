@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 .navbar {
-  background-color:#2a2ef7;
+  background-color:#006769;
   position:fixed;
   z-index: 2;
   top:0;
@@ -41,21 +41,15 @@
 }
 @media screen and (max-width: 1000px) {
   .navbar {
-    background-color: rgb(139, 139, 255);
+    background-color: #006769;
+    top:0;
     position: fixed;
     z-index: 2;
     align-items: center;
     width: 100%;
     font-size: 0.8rem;
   }
-  .search-button {
-    background-color: rgb(13, 196, 0);
-    width: 80px;
-    height: 30px;
-    border: none;
-    border: 0.5px solid black;
-    color: rgb(255, 255, 255);
-  }
+
   .List {
     display: flex;
     gap: 0px;
@@ -85,10 +79,5 @@
     color: rgb(20, 7, 160);
     text-shadow: 2px 2px 2px white;
     margin-right: 100px;
-  }
-}
-@media screen and (max-width: 750px) {
-  .btn {
-    margin-left: 30px;
   }
 }
